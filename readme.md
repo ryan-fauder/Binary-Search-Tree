@@ -7,8 +7,8 @@
 
 ## Links
  - <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1201">
-		<h2>Problema URI - 1201</h2>
+		<p>Problema URI - 1201</p>
 	</a>
  - <a href="https://www.udebug.com/URI/1201">
-		<h2>eDebug 1201</h2>
+		<p>eDebug 1201</p>
 	 </a>
