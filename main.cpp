@@ -20,6 +20,7 @@ int main(){
 	while (scanf("%[^\n]%*c", command) != EOF){
 		commandInt = verifyCommand(command);
 		if (commandInt > 2)	value = getIntValue(command);
+		
 		switch (commandInt){
 			case 0:
 				preOrder(tree, tree->root);
@@ -66,7 +67,7 @@ int getIntValue(char * str){
 	int len = strlen(str);
 
 	if (len <= 2) return 0;
-
+	
 	string tmp = string(str + 2, str + len);
 	int value = stoi(tmp); 
 
